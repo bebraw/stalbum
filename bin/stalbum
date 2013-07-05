@@ -1,0 +1,37 @@
+#!/usr/bin/env node
+var VERSION = require('../package.json').version;
+
+var path = require('path');
+var fs = require('fs');
+var handlebars = require('handlebars');
+var stalbum = require('../');
+
+
+var program = require('commander');
+
+console.log('stalbum ' + VERSION + '\n');
+
+program.
+    version(VERSION).
+    option('-c --config <json file>', 'configuration file').
+    option('-t --templates <template>', 'template directory').
+    option('-i --input <input>', 'input directory').
+    option('-o --output <output>', 'output directory').
+    parse(process.argv);
+
+if(!program.templates) quit('Missing template directory');
+if(!program.input) quit('Missing input');
+if(!program.output) quit('Missing output');
+
+var albumTemplate = path.join(program.templates, 'album.html');
+var photoTemplate = path.join(program.templates, 'photo.html');
+var conf = program.config? JSON.parse(fs.readFileSync(program.config, 'utf-8')): {};
+
+if(!fs.existsSync(albumTemplate)) return console.error('Template directory is missing album.html');
+if(!fs.existsSync(photoTemplate)) return console.error('Template directory is missing photo.html');
+
+main();
+
+function main() {
+    console.log('should convert now');
+}

@@ -4,9 +4,14 @@
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
   "version": "0.1.0",
   "dependencies": {
+    "filewalker": "~0.1.2",
+    "imagemagick": "~0.1.3",
+    "handlebars": "~1.0.12",
+    "commander": "~1.2.0"
   },
-  "devDependencies": {
-  },
+  "main": "./lib/stalbum.js",
+  "bin": "./bin/stalbum",
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/bebraw/stalbum.git"
@@ -15,7 +20,12 @@
   "bugs": {
     "url": "https://github.com/bebraw/stalbum/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "gallery",
+    "album",
+    "generator",
+    "static"
+  ],
   "licenses": [
     {
       "type": "MIT",
