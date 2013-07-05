@@ -1,13 +1,8 @@
 #!/usr/bin/env node
 var VERSION = require('../package.json').version;
-
-var path = require('path');
-var fs = require('fs');
-var handlebars = require('handlebars');
 var stalbum = require('../');
-
-
 var program = require('commander');
+
 
 main();
 
