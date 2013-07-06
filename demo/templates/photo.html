@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/stylesheets/skeleton.css">
     <link rel="stylesheet" href="/stylesheets/layout.css">
     <link rel="stylesheet" href="/stylesheets/docs.css">
+    <link rel="stylesheet" href="/stylesheets/custom.css">
 
     <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -39,6 +40,8 @@
                 </div>
             </header>
             <div>
+                <a href="{{photo.previous}}" class="previous">Previous</a>
+                <a href="{{photo.next}}" class="next">Next</a>
                 <img src="{{photo.src}}" width="{{photo.width}}" height="{{photo.height}}" />
             </div>
         </div>
