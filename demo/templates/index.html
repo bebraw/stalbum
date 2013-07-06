@@ -40,9 +40,9 @@
             </header>
             <div>
                 <ul class="albums">
-                    {{#albums}}
-                    <li><a href="/{{this}}">{{this}}</a></li>
-                    {{/albums}}
+                    {{#each albums}}
+                    <li><a href="/{{@key}}"><img src="{{this.0.src}}" width="{{this.0.width}}" height="{{this.0.height}}" /></a></li>
+                    {{/each}}
                 </ul>
             </div>
         </div>
