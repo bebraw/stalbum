@@ -8,7 +8,8 @@
     "imagemagick": "~0.1.3",
     "handlebars": "~1.0.12",
     "commander": "~1.2.0",
-    "async": "~0.2.9"
+    "async": "~0.2.9",
+    "trimmer": "0.0.3"
   },
   "main": "./lib/stalbum.js",
   "bin": "./bin/stalbum",
