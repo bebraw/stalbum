@@ -10,7 +10,7 @@
     "commander": "~1.2.0",
     "async": "~0.2.9"
   },
-  "main": "./lib/stalbum.js",
+  "main": "./lib",
   "bin": "./bin/stalbum",
   "devDependencies": {},
   "repository": {
