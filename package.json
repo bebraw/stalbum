@@ -2,7 +2,7 @@
   "name": "stalbum",
   "description": "",
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "dependencies": {
     "filewalker": "~0.1.2",
     "imagemagick": "~0.1.3",
