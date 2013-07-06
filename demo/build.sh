@@ -1,4 +1,4 @@
 #!/bin/bash
-../bin/stalbum -c config.json -i images -o out -t templates
+../bin/stalbum -c config.json
 cp -r templates/stylesheets out
 cp -r templates/js out

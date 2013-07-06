@@ -1,3 +1,6 @@
 {
-  "name": "Demo Gallery"
+  "name": "Demo Gallery",
+  "input": "images",
+  "output": "out",
+  "templates": "templates"
 }
