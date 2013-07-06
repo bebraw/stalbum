@@ -42,7 +42,7 @@
             <div>
                 <ul class="albums">
                     {{#each albums}}
-                    <li class="album"><a href="/{{@key}}"><img src="{{this.0.src}}" width="{{this.0.width}}" height="{{this.0.height}}" /></a></li>
+                    <li class="album"><a href="{{this.href}}"><img src="{{this.photos.0.src}}" width="{{this.photos.0.width}}" height="{{this.photos.0.height}}" /></a></li>
                     {{/each}}
                 </ul>
             </div>
