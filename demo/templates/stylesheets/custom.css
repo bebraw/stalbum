@@ -5,3 +5,7 @@
 .next {
     float: right;
 }
+
+.albums .album, .photos .photo {
+    display: inline;
+}
