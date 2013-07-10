@@ -3,7 +3,7 @@
 
 `stalbum` is a static image gallery generator. It simply takes in a directory of images and a couple of templates based on which it constructs a gallery. The gallery consists of albums (maps to directory) that are displayed using thumbnails.
 
-See `demo/` to get started. Alternatively you can just clone [stalbum-demo](https://github.com/bebraw/stalbum-demo) and build your albums on top of that.
+See `demo/` to get started. Alternatively you can just clone [stalbum-starter](https://github.com/bebraw/stalbum-starter) and build your albums on top of that.
 
 ## Dependencies
 
