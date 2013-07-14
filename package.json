@@ -10,8 +10,7 @@
     "commander": "~1.2.0",
     "async": "~0.2.9",
     "rmdir": "~1.0.0",
-    "worker-farm": "0.0.1",
-    "moment": "~2.1.0"
+    "worker-farm": "0.0.1"
   },
   "main": "./lib",
   "bin": "./bin/stalbum",
