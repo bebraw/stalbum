@@ -9,7 +9,7 @@ See `demo/` to get started. Alternatively you can just clone [stalbum-starter](h
 
 * Node.js (0.10.x is guaranteed to work, earlier might work as well)
 * `npm install` the rest
-* ImageMagick (for thumbnails)
+* ImageMagick or GraphicsMagick (for thumbnails)
 
 ## License
 
