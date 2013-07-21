@@ -15,6 +15,7 @@ function main() {
         option('-t --templates <template>', 'template directory').
         option('-i --input <input>', 'input directory').
         option('-o --output <output>', 'output directory').
+        option('-I --instances <instances>', 'amount of instances').
         parse(process.argv);
 
     stalbum(program);
