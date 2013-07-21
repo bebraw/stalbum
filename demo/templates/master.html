@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="{{prefix}}/stylesheets/layout.css">
     <link rel="stylesheet" href="{{prefix}}/stylesheets/docs.css">
     <link rel="stylesheet" href="{{prefix}}/stylesheets/custom.css">
+    {{#each css}}
+    <link rel="stylesheet" href="{{prefix}}/stylesheets/{{this}}.css">
+    {{/each}}
 
     <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -26,8 +29,6 @@
     <link rel="apple-touch-icon" sizes="114x114" href="{{prefix}}/images/apple-touch-icon-114x114.png">
 </head>
 <body>
-    <script src="http://code.jquery.com/jquery-2.0.1.min.js"></script>
-
     <div class="container">
         <div class="three columns sidebar">
             <nav>
@@ -45,6 +46,10 @@
         </div>
     </div>
 
+    <script src="http://code.jquery.com/jquery-2.0.1.min.js"></script>
+    {{#each js}}
+    <script type="text/javascript" src="{{prefix}}/js/{{this}}.js"></script>
+    {{/each}}
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 </body>
 </html>
