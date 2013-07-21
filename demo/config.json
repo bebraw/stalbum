@@ -1,6 +1,8 @@
 {
   "name": "Demo Gallery",
   "input": "images",
-  "output": "out",
+  "output": {
+    "path": "out"
+  },
   "templates": "templates"
 }
