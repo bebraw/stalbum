@@ -13,7 +13,8 @@
     "gm": "~1.10.0",
     "js-yaml": "~2.1.0",
     "deep-extend": "~0.2.5",
-    "require-dir": "~0.1.0"
+    "require-dir": "~0.1.0",
+    "progress": "~1.0.0"
   },
   "main": "./lib",
   "bin": "./bin/stalbum",
